@@ -1,0 +1,8 @@
+.navbar-brand {
+    font-family: var(--font-two);
+}
+
+.nav-item a {
+    color: white;
+    font-family: var(--font-two);
+}
