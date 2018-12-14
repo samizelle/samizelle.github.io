@@ -1,3 +1,13 @@
 body {
+    font-family: var(--font-two);
     background-color: var(--darkpurple);
-    }
+    background-color: #35064e; /* For browsers that do not support gradients */
+        background-image: linear-gradient(/*to bottom right, */darkblue, #35064e);
+       /* background-image: radial-gradient (#0e0e55 50%, var(--darkpurple) 60%);*/
+}
+
+#grad1 {
+        height: 200px;
+        background-color: #35064e; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, darkblue, #35064e);
+    } 
