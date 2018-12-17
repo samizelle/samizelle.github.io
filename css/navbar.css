@@ -1,8 +1,18 @@
+.navbar {
+    background-color: #250636;
+}
+
 .navbar-brand {
     font-family: var(--font-two);
 }
 
 .nav-item a {
     color: white;
-    font-family: var(--font-two);
+    font-family: var(--font-one);
+}
+
+.nav-link {
+    color: white;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
 }
