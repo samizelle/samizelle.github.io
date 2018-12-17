@@ -1,5 +1,6 @@
 body {
     font-family: var(--font-two);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/milky-way-starry-sky-night-sky-star.jpeg");
     background-color: var(--darkpurple);
     background-color: #35064e; /* For browsers that do not support gradients */
         background-image: linear-gradient(/*to bottom right, */darkblue, #35064e);
@@ -11,3 +12,9 @@ body {
         background-color: #35064e; /* For browsers that do not support gradients */
         background-image: linear-gradient(to bottom right, darkblue, #35064e);
     } 
+
+h2 {
+    font-family: var(--font-one);
+    font-size: 1.6rem;
+    }
+

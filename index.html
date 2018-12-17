@@ -46,33 +46,62 @@
           </nav>
 
           <!--header-->
+        <div class="container">
 
           <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <section id="test">
+                <!-- <div class="hero-image"> -->
+                  <div class="hero-text">
+                    <h1>Stephanie A Mizelle</h1>
+                    <p>Junior .Net Developer</p>
+                    <button>See My Resume</button>
+                  </div>
+                <!-- </div> -->
                 <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
-              </div>
+              </section>
+          </div>
+
+        </div>
+
+      <div class="panel-group" id="accordian">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                <!--about section-->
+                  <section id="about">
+                      <h1>About Section</h1>
+                  </section>
+                  </a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">Everything you could want to know about me!!
+
+            </div>
+          </div>
+        </div>
 
 
-              <div class="hero-image">
-                <div class="hero-text">
-                  <h1>Stephanie A Mizelle</h1>
-                  <p>Junior .Net Developer</p>
-                  <button>See My Resume</button>
-                </div>
-              </div>
-          <!--about section-->
-            <section id="about">
-                <h1>About Section</h1>
-            </section>
-
-          <!--project section-->
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                <!--project section-->
             <section id="project">
-                <h1>Project Section</h1>
+                Project Section
             </section>
-            
+          </a>
+        </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <h4>All my glorious projects!!</h4>
+
+          </div>
+        </div>
+    </div>
+
 
           <!--contact section-->
           <section id="contact">
@@ -135,9 +164,9 @@
                       </form>
                     </div>
                   </div>
-
+                </div>
           </section>
-
+        </div>
           <!--footer-->
           <footer></footer>
 
