@@ -1,4 +1,5 @@
-h5 {
+.skills {
+    font-family: var(--font-one);
     font-size: 1.8rem;
     color: #007bff;
 }
