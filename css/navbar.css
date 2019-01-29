@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #250636;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/milky-way-starry-sky-night-sky-star.jpeg");
+    background-color: var(--darkblue);
 }
 
 .navbar-brand {

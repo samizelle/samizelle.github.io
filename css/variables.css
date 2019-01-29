@@ -1,11 +1,6 @@
 :root {
-    --red: #e80d0d;
-    --blue: #2C89E1;
-    --darkblue: #0e0e55;
-    --purple: #842CE1;
+    --darkblue: #183f65;
     --darkpurple: #35064e;
-    --magenta: #DE2CE1;
-    --green: #11E548;
 
     --font-one: 'Walter Turncoat', cursive;
     --font-two: 'Rock Salt', cursive;
@@ -17,12 +12,3 @@
     font-family: 'Londrina Outline', cursive;
     font-family: 'Cabin Sketch', cursive;
 }
-
-#grad1 {
-    height: 200px;
-    background-color: #35064e; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, darkblue, #35064e);
-} 
-
-                    
-
