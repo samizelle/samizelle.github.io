@@ -1,4 +1,8 @@
-#about p {
-    font-family: var(--font-one);
+#about {
+    height: 100vh;
+    padding-top: 2em;
+}
 
+p {
+    font-family: var(--font-one);
 }
