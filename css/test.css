@@ -27,3 +27,6 @@ body, html {
   color: white;
 }
 
+p {
+  font-family: var(--font-two);
+}

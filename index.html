@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <!-- bootstrap navbar -->
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
+    <!-- bootstrap navbar --> 
+        <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top" id="home">
       <a class="navbar-brand" href="#">Stephanie A Mizelle</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -64,6 +64,7 @@
         two.
       </p>
     </div>
+    <a href="#home"><button class="topbtn">Back to top</button></a>
   </section>
         
   <section id="portfolio" class="section-padding">
@@ -72,118 +73,142 @@
       <br>
       <div class="row">
         <div class="col-md-4">
-          <img src="./assets/img/CSSCreature.png" class="image" style="width: 100%">
+          <img src="assets/img/CateringCoordinator.png" class="image" style="width: 100%">
           <div class="text">
             CSS Creature - click 
-            <a href="https://codepen.io/StephMiz81818/pen/vVMMYQ" target="blank">here</a>
+            <a href="https://dc-cateringcoordinator.herokuapp.com/home" target="blank">here</a>
             to view project
           </div>
         </div>
         <div class="col-md-4">
-          <img src="./assets/img/KnittyKninja.png" class="image" style="width: 100%">
+          <img src="assets/img/MaintainMe.png" class="image" style="width: 100%">
           <div class="text">
             Static WebPage - click 
-            <a href="https://samizelle.github.io/knitty-kninja/#" target="blank">here</a>
+            <a href="https://maintainmewebmvc2.azurewebsites.net" target="blank">here</a>
             to view project
           </div>
         </div>
         <div class="col-md-4">
-          <img src="./assets/img/DotNet152Challenges.png" class="image" style="width: 100%">
+          <img src="assets/img/KnittyKninja.png" class="image" style="width: 100%">
           <div class="text">
             Gold Badge Business Challenges - click 
-            <a href="https://github.com/samizelle/DotNet152Challenges" target="blank">here</a>
+            <a href="https://samizelle.github.io/knitty-kninja/#" target="blank">here</a>
             to view project repository
           </div>
         </div>
       </div>
-    </div>
+      <div class="row">
+          <div class="col-md-4">
+            <img src="assets/img/CSSCreature.png" class="image" style="width: 100%">
+            <div class="text">
+              CSS Creature - click 
+              <a href="https://codepen.io/StephMiz81818/pen/vVMMYQ" target="blank">here</a>
+              to view project
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+            <img src="./assets/img/KnittyKninja.png" class="image" style="width: 100%">
+            <div class="text">
+              Static WebPage - click 
+              <a href="https://samizelle.github.io/knitty-kninja/#" target="blank">here</a>
+              to view project
+            </div>
+          </div> -->
+          <div class="col-md-4">
+            <img src="assets/img/DotNet152Challenges.png" class="image" style="width: 100%">
+            <div class="text">
+              Gold Badge Business Challenges - click 
+              <a href="https://github.com/samizelle/DotNet152Challenges" target="blank">here</a>
+              to view project repository
+            </div>
+          </div>
+        </div>
+      </div>
     <a href="https://github.com/samizelle" target="blank"></a>
-  
+    <a href="#home"><button class="topbtn">Back to top</button></a>
   </section>
 
-           <section id="skills" class="section-padding">
-             <div class="container text-center">
-             <h2 class="mb-60">Skills</h2>
-             <br>
-                <img src="./assets/img/dot-net.png" class="img-thumbnail" alt=".NET">
-                    <img src="./assets/img/html.png" class="img-thumbnail" alt="HTML5">
-            <img src="./assets/img/css.jpg" class="img-thumbnail" alt="CSS3">
-         <img src="./assets/img/SQL2.png" class="img-thumbnail" alt="SQL">
-        <img src="./assets/img/angular.png" class="img-thumbnail" alt="Angular">
-     
-            
-                </div>
-                </section>
+  
+  
+  <section id="skills" class="section-padding">
+    <div class="container text-center">
+      <h2 class="mb-60">Skills</h2>
+      <br>
+      <img src="./assets/img/dot-net.png" class="img-thumbnail" alt=".NET">
+      <img src="./assets/img/html.png" class="img-thumbnail" alt="HTML5">
+      <img src="./assets/img/css.jpg" class="img-thumbnail" alt="CSS3">
+      <img src="./assets/img/SQL2.png" class="img-thumbnail" alt="SQL">
+      <img src="./assets/img/angular.png" class="img-thumbnail" alt="Angular">
+    </div>
+    <br>
+    <a href="#home"><button class="topbtn">Back to top</button></a>
+  </section>
 
-          <!--contact section-->
-          <section id="contact" class="section-padding">
-            <div class="container text-center">
-              <h2>Contact Me</h2>
-              <br>
-                    <div class="row">
-                      <form action="https://formspree.io/samizelle@gmail.com" method="POST">
-                        <div class="control-group">
-                          <div class="form-group">
-                            <!-- <label>Name</label> -->
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder="Your Name"
-                              id="name"
-                              required
-                              data-validation-required-message="Please enter your name"
-                              name="name"
-                              >
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="form-group">
-                            <!-- <label>Email Address</label> -->
-                            <input
-                              type="email"
-                              class="form-control"
-                              placeholder="Your Email"
-                              id="email"
-                              required
-                              data-validation-required-message="Please enter your email"
-                              name="_replyto"
-                            >
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="control-group">
-                          <div class="form-group">
-                            <textarea
-                              class="form-control"
-                              rows="7"
-                              placeholder="Your Message"
-                              id="message"
-                              required
-                              data-validation-required-message="Please leave a message"
-                              name="message"
-                            ></textarea>
-                            <p class="help-block text-danger"></p>
-                          </div>
-                        </div>
-                        <div class="text-center">
-                          <div id="success"></div>
-                          <button type="submit" class="btn btn-lg btn-black">
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                            Send Message
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                
+  <section id="contact" class="section-padding">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <br>
+      <div class="row">
+        <form action="https://formspree.io/samizelle@gmail.com" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                id="name"
+                required
+                data-validation-required-message="Please enter your name"
+                name="name"
+                >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                id="email"
+                required
+                data-validation-required-message="Please enter your email"
+                name="_replyto"
+                >
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                rows="7"
+                placeholder="Your Message"
+                id="message"
+                required
+                data-validation-required-message="Please leave a message"
+                name="message"
+                >
+              </textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <a href="#home"><button class="topbtn">Back to top</button></a>
+  </section>
 
-          </section>
-        </div>
-          <!--footer-->
-          <footer class="text-center">
-          <p>&copy; 2019 - Stephanie A Mizelle</p>
-        </footer>
+  <footer class="text-center">
+    <p>&copy; 2019 - Stephanie A Mizelle</p>
+  </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
